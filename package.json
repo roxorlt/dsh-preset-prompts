@@ -1,6 +1,6 @@
 {
   "name": "dsh-preset-prompts",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "DSH 预设提示词插件：10 条内置思维框架 + 自定义提示词（变量、分组、版本历史），面板注入会话输入框，数据本地落盘。",
   "license": "MIT",
   "author": {
