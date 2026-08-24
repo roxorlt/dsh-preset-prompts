@@ -32,7 +32,9 @@
 
 ## 安装
 
-### 一键安装（npm）
+### 一键安装（npm 源）
+
+包发布在 npm 仓库，但安装用 DSH 自己的命令（`dsh plugin` 会在 profile 目录里跑 pnpm 从 npm 拉包，并自动挂载到启动栈；直接用 `npm install` 不会挂载、不适用）：
 
 ```bash
 dsh plugin --profile web add dsh-preset-prompts@latest
