@@ -1,0 +1,8 @@
+# dsh-preset-prompts bundle patch
+#
+# 通过官方 CLI 安装（dsh plugin add dsh-preset-prompts@<version>）时，
+# 该命令会把本包名追加进 dsh.profile.bundles；profile 启动时合并此 patch，
+# 自动挂载插件行，无需手动改任何配置文件。
+- insert:
+    - id: preset-prompts
+      name: 'dsh-preset-prompts'
