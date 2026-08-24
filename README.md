@@ -51,9 +51,11 @@ dsh plugin --profile web add "github:roxorlt/dsh-preset-prompts#main"
 
 ### 交给 Agent 自主安装
 
-DSH 的 Agent 具备终端执行能力，直接对它说一句即可：
+DSH 的 Agent 具备终端执行能力，把下面这句话直接发给它即可（一键复制）：
 
-> 帮我把 `dsh-preset-prompts` 插件装上：执行 `dsh plugin --profile web add dsh-preset-prompts@latest`，装完提示我重启 `dsh web`。
+```text
+帮我把 dsh-preset-prompts 插件装上：执行 dsh plugin --profile web add dsh-preset-prompts@latest，装完提示我重启 dsh web。
+```
 
 Agent 会自己跑安装命令（这个包带 `cordis.patch.yml` 自动挂载声明，安装即挂载，无需额外配置）。
 
