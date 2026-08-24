@@ -5,7 +5,7 @@ DSH 预设提示词插件：内置 10 条思维框架提示词 + 自定义提示
 ## 安装
 
 ```bash
-dsh plugin add dsh-preset-prompts@latest
+dsh plugin --profile web add dsh-preset-prompts@latest
 # 重启 dsh web
 ```
 
